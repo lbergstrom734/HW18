@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+  }
+  header {
+    background-color: #373738;
+    padding: 15px;
+  }
+  header ul {
+    float: right;
+    color: white;
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+  header p {
+    display: inline-block;
+  }
+  .heroImg {
+    background-color: #EBEBEB;
+    padding: 100px 15px;
+  }
+  .content {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+  }
+  button {
+    padding: 15px;
+    background-color: #373738;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+  footer {
+    background-color: #373738;
+    padding: 5px;
+    color: white;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
+  .flex-container .left {
+    background-color: rgb(215, 45, 45);
+    text-align: center;
+    font-size: 14px;
+    min-width: 300;
+    
+  }
+  .flex-container .center {
+    background-color: rgb(215, 45, 45);
+    text-align: center;
+  }
+  .flex-container .right {
+    background-color: rgb(215, 45, 45);
+    font-size: 24px;
+    style="font-size:60vw";
+    text-align: center;
+  }
+  .flex-container {
+    display: flex;
+    background-color: #131314;
+    justify-content: center;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 40px;
+    padding: 40px;
+    font-size: 30px;
+    width: 300px;
+    height: 300px
+  }
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
